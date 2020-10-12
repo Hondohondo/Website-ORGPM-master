@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac683901-547d-474f-a280-b11307c12f0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1cPhtIlNdDC823Ee6x4UE9bJ6er" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hondo\PhpstormProjects\Website-ORGPM-master\org-portfolio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hondo\Documents\Website-ORGPM-master\sass\pages" />
+      <recent name="C:\Users\hondo\Documents\Website-ORGPM-master" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac683901-547d-474f-a280-b11307c12f0b" name="Default Changelist" comment="" />
+      <created>1590436348339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590436348339</updated>
+      <workItem from="1590436350839" duration="2825000" />
+      <workItem from="1590439745839" duration="2353000" />
+      <workItem from="1591323318434" duration="16000" />
+      <workItem from="1591323349716" duration="14000" />
+      <workItem from="1593425948344" duration="7679000" />
+      <workItem from="1596427931424" duration="7320000" />
+      <workItem from="1602208814488" duration="610000" />
+      <workItem from="1602288247107" duration="48000" />
+      <workItem from="1602288628313" duration="863000" />
+      <workItem from="1602290298450" duration="1606000" />
+      <workItem from="1602390927443" duration="5249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="56" key="#PHP" timestamp="1602288888349">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="476" y="56" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1602288888349" />
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602288866814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602288866814" />
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596428395320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596428395320" />
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602391537442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602391537442" />
+    <state x="606" y="311" key="Github.ShareDialog" timestamp="1596747841282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="606" y="311" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1596747841282" />
+    <state x="543" y="118" key="Github.UntrackedFilesDialog" timestamp="1596747859711">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596747859711" />
+    <state x="605" y="336" key="NewPhpFileDialog" timestamp="1602392651934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="605" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602392651934" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1596428354447">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596428354447" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+#gallery {
+  display: none;
+}
+
+#gallery1 {
+  display: none;
+  background: darkred;
+}
+
+.test-class {
+  background: chocolate;
+  font-size: 3rem;
+}

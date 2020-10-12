@@ -1,0 +1,522 @@
+.header {
+    height: 95vh;
+    /* background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.801),
+        rgba(39, 179, 132, 0.801)), 
+    url(../img/hero.jpg); */
+    // background-image: linear-gradient(
+    //     to right bottom, 
+    //     #131317 0%,
+    //     #7e8087 100%), url(../img/3.jpg); 
+
+
+  //background-image: url(../img/hero.jpg);
+   background-image: url(../img/heroo.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__nav-bar {
+        width: 100%;
+        /* box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1) */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        // margin-left: 4rem;
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    }
+
+    &__logo-box {
+        position: absolute;
+        // top: 4rem;
+        // left: 4rem;
+
+        // &::after {
+        //     content: "";
+        //     clear: both;
+        //     display: table;
+        // }
+    }
+
+    &__logo {
+         height: 16rem; 
+        width: auto;
+        float: left;
+        /* margin-top: 20px; */
+        // padding-left: 3rem;
+    }
+
+    &__text-box {
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
+
+#property {
+    //background-image: url(../img/PropertyLogo.jpg);
+
+    .header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/office.jpg);
+        //background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/lakepoint.jpg);
+       // background-image: linear-gradient( rgba(56, 70, 77, 0.75), rgba(56, 70, 77, 0.75) ), url(../img/lakepoint.jpg);
+       // background-image:linear-gradient( rgba(56, 70, 77, 0.85), rgba(56, 70, 77, 0.85) ), url(../img/lakepoint.jpg);
+       // background-image: radial-gradient(#bbbbbb,grey,#333333); // Beautiful Radio Gradient
+        //background-image: radial-gradient(#bbbbbb,rgba(128, 128, 128, 0.884),#333333d5), url(../img/lakepoint.jpg); // Beautiful Radio Gradient
+        
+       
+        
+        &__nav-bar {
+            border-bottom: 0;
+        }
+
+        &__logo{
+            height: 12rem; 
+       }
+    }
+
+    #aboutproperty {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../img/heines.jpg);
+       // background-image: linear-gradient(rgba(33, 47, 76, 0.959),rgba(33, 47, 76, 0.932)), url(../img/service.jpg);
+    }
+
+    #teamproperty {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../img/team.jpg);
+
+    }
+
+    #properties {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../img/lakepoint.jpg);
+    }
+
+
+
+    .main-nav {
+        font-size: 1.7rem;
+        & li {
+           // line-height: 12rem;
+            & a::before {
+                background: $color-org-blue;
+            } 
+        }
+    }
+
+        .sticky {
+            .header__logo {
+                height: 8.4rem; 
+            }
+            .main-nav {
+    
+                & li {
+                    //line-height: 8rem; 
+                }
+            }
+        }
+}
+
+
+
+
+/* ---------------------------------------------
+------ MAIN NAVIGATION ----------------
+--------------------------------------------- */
+
+
+.main-nav {
+    font-size: 1.6rem;
+    /* position: relative; */
+    float: right;
+    list-style: none;
+    /* margin-top: 55px; */
+    padding-right: 2.5rem;
+    padding-left: .5rem;
+
+    & li {
+        position: relative;
+        display: inline-block;
+        /* margin-left: 40px; */
+        line-height: 8rem;
+
+        &:hover a:before {
+            transform: scale3d(1, 1, 1);
+            transform-origin: 0 50%;
+            transition: all 320ms ease;
+        }
+
+        & a::before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 2.5rem;
+            margin-top: 1.5rem;
+            width: 1.4rem;
+            height: .2rem;
+            background: $color-org-green;
+        
+            transform: scale3d(0, 1, 1);
+            transform-origin: 0 50%;
+            transition: all 320ms ease;
+            
+        }
+        & a:link,
+        & a:visited {
+        /* padding: 8px 0; */
+        padding: 0 2.5rem 0 2.5rem;
+        color: #fff;
+        text-decoration: none;
+        /* text-transform: uppercase; */
+        font-size: 90%;
+        /* border-bottom: 2px solid transparent; */
+        /* transition: border-bottom 0.2s; */
+
+        /* transition: all 320ms ease; */
+        }       
+    }
+}
+
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    /* border-bottom: 2px solid #e67e22; */
+    /* border-bottom: 1px solid #e67e22; */  
+}
+
+/* ---------------------------------------------
+------ STICKY NAVIGATION ----------------
+--------------------------------------------- */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.979);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    
+    .main-nav {
+    
+        & li {
+        
+            &:hover a:before {
+               
+            }
+    
+            & a::before {
+                  
+            }
+            & a:link,
+            & a:visited {
+           
+            color: #555;
+        
+            }       
+        }
+    }
+
+    .header__logo {
+        height: 8.4rem; 
+       width: auto;
+       float: left;
+    //    margin-top: 20px; 
+    //     padding-left: 3rem;
+   }
+}
+
+
+
+/* ---------------------------------------------
+------ MOBILE NAVIGATION ----------------
+--------------------------------------------- */
+
+.mobile-nav-icon {
+   float: right;
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.mobile-nav-icon i {
+   font-size: 3.2rem;
+   // font-size: 200%;
+    color: #fff;
+}
+
+#services,
+#properties,
+#aboutproperty,
+#teamproperty,
+#showcase,
+#about,
+#acres,
+#research,
+#team {
+    height: 60vh;
+}
+
+
+
+#services {
+   background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/services.jpg);
+}
+
+#about {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/about.jpg);
+   // background-image: url(../img/about2.jpg);
+}
+#team{
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/team.jpg);
+}
+#research {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/office.jpg);
+}
+#acres {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/service.jpg);
+}
+
+.service__container {
+    //max-width: 117rem;
+    position: absolute;
+    width: $grid-width;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    //transform: translate(-50%, -50%);
+    //max-width: $grid-width;
+    //margin: 10rem auto;
+    //padding-top: 6.5rem;
+
+    @include respond(tab-land) {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    span {
+        display: block;
+        width: 70%;
+        color: $color-white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        letter-spacing: 0.15px;
+        // line-height: 145%;
+
+    }
+}
+
+
+/* ---------------------------------------------
+------ ABOUT SECTION ----------------
+--------------------------------------------- */
+
+/* ---------------------------------------------
+------ SERVICES SECTION ----------------
+--------------------------------------------- */
+
+.service-content {
+
+    h1 {
+        color: $color-white;
+        font-weight: 300;
+        font-size: 3.5rem;
+        letter-spacing: 1.8px;
+    }
+   
+}
+
+.hr-line {
+    border-color: rgba(255,255,255,0.1);
+    height: 1px;
+    border-width: 0;
+    border-bottom-width: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-services,
+.section-team,
+.section-research,
+.section-about-history  {
+    background-color: #f4f4f4;
+    padding: 8rem 0;
+}
+
+.service-type {
+    background-color: $color-white;
+    border-radius: .5rem;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 .2rem .2rem #efefef;
+
+    div {
+        // margin: o auto;
+        // text-align: center;
+        padding: 1.5rem;
+        border-bottom: 1px solid #e8e8e8;
+
+        &:first-child {
+            background-color: #fcfcfc;
+            border-top-left-radius: .5rem;
+            border-top-right-radius: .5rem;
+
+        }
+
+        &:last-child {
+            text-align: center;
+            // text-align: justify;
+            border: none;
+            margin-bottom: .5rem;
+
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        // letter-spacing: 1px;
+        // font-size: 110%;
+        font-size: 2.2rem;
+        // margin-bottom: 1.5rem;
+
+    }
+
+    p {
+        width: 80%;
+        line-height: 1.7;
+        font-size: 1.7rem;
+        font-weight: 300;
+        text-align: left;
+        margin: 0 auto 2.5rem auto;
+        // padding: .5rem 0;
+        // margin-left: 10%;
+        // margin-right: 10%;
+    }
+
+    ul {
+        list-style: none;
+        // padding: 0 20%;
+
+
+        li {
+            padding: .5rem 0;
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+    }
+}
+
+/* ---------------------------------------------
+------ TEAM SECTION ----------------
+--------------------------------------------- */
+
+.section-team,
+.section-research {
+ 
+    a:link,
+    a:visited {
+        color: $color-primary;
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px solid $color-primary;
+        transition: border-bottom 0.2s, color 0.2s;
+        
+    }
+
+    a:hover,
+    a:active {
+        color: #555;
+        border-bottom: 1px solid transparent;
+
+    }
+
+    .team-names {
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+}
+
+.team-contacts {
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+    .icon-small {
+        font-size: 1.8rem;
+    }
+}
+
+.box img {
+    width: 100%;
+    // height: auto;
+    height: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ---------------------------------------------
+------ LINKS ----------------
+--------------------------------------------- */
+
+
+
+/* ---------------------------------------------
+------ ICONS ----------------
+--------------------------------------------- */
+
+.icon-big {
+    font-size: 1500%;
+    display: block;
+    //color: $color-primary;
+    //margin-bottom: 1rem;
+    line-height: 0;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    color: $color-org-green;
+    // font-size: 120%;
+    // line-height: 120%;
+    font-size: 1.4rem;
+    margin-right: .5rem;
+
+    //align text with icons
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -.3px;
+}
+
+/* ---------------------------------------------
+------ ANIMATIONS ----------------
+--------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated, 
+.js--wp-2.animated, 
+.js--wp-3.animated{
+    opacity: 1;
+}
+
+

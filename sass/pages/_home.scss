@@ -1,0 +1,322 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 8rem 2rem;
+
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
+
+    .row {
+        @include respond(tab-port) {
+            //padding: 20rem 0;
+            max-width: 70rem;
+            padding: 0 3rem;
+        }
+        
+    }
+
+}
+
+.section-features {
+    // padding: 20rem 0;
+    padding: 10rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(35, 37, 38, 0.8), 
+        rgba(65, 67, 69, 0.8)), 
+    url(../img/property/Property-4-big.jpg);
+   // url(../img/hero.jpg);
+   //previous opacity 0.97...
+   // all children & > * {}
+
+    // background-image: url(../img/hero.jpg);
+    background-size: cover;
+
+    @include respond(tab-port) {
+        padding: 8rem 0;
+    }
+
+    .row {
+        @include respond(tab-port) {
+            max-width: 50rem;
+            padding: 0 3rem;
+        }
+    } 
+}
+
+.section-stories {
+    padding: 8rem 0;
+    background-color: $color-grey-light-2;
+
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
+
+    .row {
+        @include respond(tab-port) {
+            //padding: 20rem 0;
+            max-width: 70rem;
+            //padding: 0 3rem;
+        }
+        
+    }
+}
+
+.section-book {
+    padding: 10rem 0;
+    background-color: #f4f4f4;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.book {
+    background-image: linear-gradient(105deg,
+                                     rgba($color-white, .9) 0%,
+                                     rgba($color-white, .9) 50%,
+                                      transparent 50%), 
+                            url(../img/heines.jpg);
+    background-size: 100%; // = background-size: cover - but 100% fits the container in x-direction
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .25);
+
+    //height: 50rem;
+
+    @include respond(tab-land) {
+        background-image: linear-gradient(105deg,
+                                rgba($color-white, .9) 0%,
+                                rgba($color-white, .9) 65%,
+                                transparent 65%), 
+                        url(../img/heines.jpg);
+        background-size: cover;
+    }
+
+    @include respond(tab-port) {
+        background-image: linear-gradient(to right,
+                                rgba($color-white, .9) 0%,
+                                rgba($color-white, .9) 100%), 
+                        url(../img/heines.jpg);
+    }
+
+    &__form {
+        width: 50%;
+        padding: 6rem;
+
+        @include respond(tab-land) {
+            width: 65%;
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
+    }
+}
+
+.section-homes {
+    //background-color: $color-secondary;
+    //background-color: #101d2c;
+   // width: min-content;
+    //margin: 0 auto;
+    margin: 10rem 0;
+    //display: grid;
+    .home__box {
+        width: 100%;
+        margin-bottom: 2rem;
+        height: 4rem;
+    }
+
+}
+
+.section-show {
+
+    margin: 8rem 0;
+
+}
+
+.home {
+     background-color: #f9f7f6;
+     // position: relative;
+     //margin-bottom: 5rem;
+
+     &__box {
+        // margin-top: 0rem;
+     }
+     
+
+     &__img {
+         width: 100%;
+        
+     }
+
+     &__name {
+        
+        width: 80%;
+        margin: 0 auto;
+        //position: absolute;
+        //top: 38%;
+       // left: 10%;
+        //margin-bottom: 5rem;
+        //z-index: 10;
+        transform: translateY(-50%);
+
+         font-size: 1.6rem;
+         text-align: center;
+         padding: 1.25rem;
+         //background-color: #101d2c;
+         background-color: $color-org-blue;
+         color: $color-white;
+         font-weight: 400;
+
+     }
+
+
+
+     &__location,
+     &__rooms,
+     &__area,
+     &__price {
+         //font-size: 1.5rem;
+         font-size: 1.3rem;
+         //margin-left: 2rem;
+         //margin-bottom: 2rem;
+         display: flex;
+         align-items: flex-start;
+         width: 90%;
+         margin: 0 auto;
+
+
+        i {
+            color: $color-org-blue;
+            //color: $color-grey-dark;
+            // height: 2rem;
+            // width: 2rem;
+            //font-size: 2.5rem;
+            font-size: 2rem;
+            margin-right: 1rem;
+            //display: inline-block;
+            //vertical-align: middle;
+            line-height: 1.2;
+        }
+
+        p {
+            //display: inline-block;
+            //vertical-align: middle;
+            line-height: 1.5;
+        }
+         
+    }
+}
+
+.section-stori {
+    background-color: $color-grey-light-1;
+
+    .row {
+       //max-width: 100%;
+    }
+
+    
+
+}
+
+.stori {
+    &__pictures {
+        //background-color: $color-primary;
+        //position: relative;
+        //background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(img/back.jpg);
+    }
+
+    &__img--1 {
+        
+       width: 100%;
+       //width: 450px;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+        //width: 60%;
+        //position: absolute;
+        //top: 20%;
+        //left: 20%;
+        //margin-top: 6vh;   COMMENTS --    get a photo with a higher height
+    }
+
+    &__img--2 {
+        //display: none;
+        //width: 388px;
+       // width: 60%;
+        //position: absolute;
+        //top: 20%;
+       // left: 50%;
+        //box-shadow: 0 2rem 5rem rgba(#000, .2);
+       // transform: translateY(-50%);
+    }
+
+    &__content {
+        background-color: $color-grey-light-1;
+
+        padding: 6rem 8vw;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
+    }
+}
+
+.heading-2 {
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: italic;
+    line-height: 1;
+
+    &--light {color: $color-grey-light-1;}
+    &--dark {color: $color-grey-dark;}
+}
+
+.heading-3 {
+    font-size: 1.6rem;
+    color: $color-primary;
+    text-transform: uppercase;
+}
+
+.btn-property {
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-primary-dark;
+    }
+}
+
+.home__btn {
+    //background-color: $color-org-blue;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: $color-grey-dark-2;
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    //cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        //background-color:#101d2c;
+        background-color:$color-grey-dark;
+    }
+}
+
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
