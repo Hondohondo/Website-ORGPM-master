@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-            <?php include "header.php";?>
+            <?php include "htmlheader.php";?>
                 
                 <title>ORGPM | Institutional Real Estate Investing | Team</title>
             </head>
@@ -9,7 +9,9 @@
         <header class="header" id="team">
 
 
-            <?php include "navigation.php";?>
+<!--            --><?php //include "navigation.php";?>
+            <?php include "main_nav.php";?>
+
 
 
             <div class="service__container">

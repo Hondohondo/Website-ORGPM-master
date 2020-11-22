@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-            <?php include "header.php";?>
+            <?php include "htmlheader.php";?>
                 
                 <title>ORGPM | Institutional Real Estate Investing | Services</title>
             </head>
     <body>
         <header class="header" id="services">
 
-            <?php include "navigation.php";?>
+<!--            --><?php //include "navigation.php";?>
+            <?php include "main_nav.php";?>
 
             <!-- <div class="header__text-box">
                 <h1 class="heading-primary">

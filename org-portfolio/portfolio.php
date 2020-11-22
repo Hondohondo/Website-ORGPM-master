@@ -2,37 +2,14 @@
 <html lang="en">
     <head>
 
-        <?php include "header.php";?>
+        <?php include "htmlheader.php";?>
         
         <title>ORGPM | Institutional Real Estate Investing</title>
     </head>
     <body>
         <header class="header">
 
-            <nav>
-
-            <div class="header__logo-box">
-                <a href="portfolio.php">
-                <img src="../img/org-portfolio-logo.png" alt="ORG logo" class="header__logo">
-                </a>
-            </div>
-
-            <div class="header__nav-bar">
-                <!-- <img src="img/logo.png" alt="ORG logo" class="header__logo"> -->
-                <ul class="main-nav js--main-nav">
-                    <li><a href="../index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="team.php">Team</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="research.php">Research</a></li>
-                    <li><a href="acres.php">Acres</a></li>
-                </ul>
-
-                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-            </div>
-           
-
-            </nav>
+            <?php include "main_nav.php";?>
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -49,34 +26,16 @@
         </header>
 
         <main>
-            <section class="section-about js--section-about" id="stickyy">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-secondary">
-                        ORG Portfolio Management
-                    </h2>
+
+            <section class="features">
+                <div class="row">
+                    <h2>ORG &mdash; Our Mission Statement</h2>
+                    <p class="long-copy">
+                        ORG is a global real assets investment manager and consultant proactively providing clients with customized advice.  Our investment recommendations and analysis are grounded upon thoughtful and conservative underwriting and comprehensive research.  We provide clients with unequaled access and transparency to global investment opportunities.
+                    </p>
                 </div>
-
-                <div class="row js--wp-2">
-                    <div class="block-text">
-                        <h3 class="heading-tertiary u-margin-bottom-small">Investment Judgement</h3>
-                        <p class="paragraph">
-                            ORG Portfolio Management LLC ("ORG") is a Registered Investment Adviser that provides global real estate and natural resources portfolio management and consulting services to sophisticated institutional investors.
-                            We believe that thoughtful and conservative underwriting, rigorous asset-level research, opportunistic tactical allocations to markets and managers, and portfolio diversification are critical to successful investment performance.
-                        </p>
-
-                        <h3 class="heading-tertiary u-margin-bottom-small">Portfolio Management</h3>
-                        <p class="paragraph">
-                            ORG specializes in strategy development, discretionary and non-discretionary portfolio management, manager, fund and investment level due diligence, manager selection and monitoring, and performance measurement. 
-                        </p>
-
-                        <a href="about.php" class="btn-text">Learn more &rarr;</a>
-                    </div>
-                    <!-- <div class="col-1-of-2">
-                        Col 1 of 2
-                    </div> -->
-                </div>
-                
             </section>
+
 
             <section class="section-features js--section-features">
 

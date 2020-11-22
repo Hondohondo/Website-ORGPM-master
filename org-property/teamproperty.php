@@ -16,8 +16,17 @@
                 <div class="service-content">
                     <h1 class="text-service">Team</h1>
                 </div>
-                <hr class="hr-line">
-                    <span>ORG Portfolio Management LLC ("ORG") is proud of its dedicated and experienced team of investment professionals. All team members operate with the highest degree of integrity and commitment to the firms's clients.</span>
+                <hr class="hr-line u-margin-bottom-small">
+<!--                    <span>ORG Portfolio Management LLC ("ORG") is proud of its dedicated and-->
+<!--                        experienced team of investment professionals. All team members -->
+<!--                        operate with the highest degree of integrity and commitment to-->
+<!--                        the firms's clients.</span>-->
+                <span>
+                    ORG Property Management Operations and Professional Staff Team Members operate within
+                    the highest degree of integrity and commitment to the firm’s tenants, vendors, and clients.
+                    Our hands-on management approach is supported by a Team with a
+                    diversified background and are all commited to superior customer service and higher tenant satisfaction
+                </span>
             </div>
 
 

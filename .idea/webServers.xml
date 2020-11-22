@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="32a05827-eed5-4eed-9bb9-57c58d7ac50f" name="ORG" url="http://mosesn.sg-host.com/ORG">
+        <fileTransfer rootFolder="/mosesn.sg-host.com/public_html/ORG" host="giowm1155.siteground.biz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

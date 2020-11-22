@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-            <?php include "header.php";?>
+            <?php include "htmlheader.php";?>
                 
                 <title>ORGPM | Institutional Real Estate Investing | Research</title>
             </head>

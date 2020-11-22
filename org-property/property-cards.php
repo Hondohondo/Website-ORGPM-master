@@ -109,7 +109,9 @@
     </div>
 
 </div>
-<div class="row">
+
+
+<!--<div class="row">
     <div class="col-1-of-3">
         <div class="home">
             <img src="../img/property/visioncare-small.jpg" alt="Vision Care" class="home__img">
@@ -253,4 +255,4 @@
 
     </div>
 
-</div>
+</div>-->

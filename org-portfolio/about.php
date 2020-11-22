@@ -2,14 +2,15 @@
 <html lang="en">
         <head>
 
- <?php include "header.php";?>
+ <?php include "htmlheader.php";?>
 
                 <title>ORGPM | Institutional Real Estate Investing | About</title>
             </head>
     <body>
         <header class="header" id="about">
 
-            <?php include "navigation.php";?>
+<!--            --><?php //include "navigation.php";?>
+            <?php include "main_nav.php";?>
 
 
             <div class="service__container">

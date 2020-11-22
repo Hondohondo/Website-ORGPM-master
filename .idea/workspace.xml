@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ac683901-547d-474f-a280-b11307c12f0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org-portfolio/deleted_section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org-portfolio/main_nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org-property/text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org_images/org_logo.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_newsections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/htmlheader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/research.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/research.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-portfolio/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-portfolio/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/aboutproperty.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/aboutproperty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/properties.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/properties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/property-cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/property-cards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/property-head.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/property-head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/property.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/property.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org-property/teamproperty.php" beforeDir="false" afterPath="$PROJECT_DIR$/org-property/teamproperty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_properties.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_properties.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -27,24 +73,37 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1cPhtIlNdDC823Ee6x4UE9bJ6er" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hondo\PhpstormProjects\Website-ORGPM-master\deleted" />
+      <recent name="C:\Users\hondo\PhpstormProjects\Website-ORGPM-master\org-property" />
       <recent name="C:\Users\hondo\PhpstormProjects\Website-ORGPM-master\org-portfolio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -73,45 +132,88 @@
       <workItem from="1602288247107" duration="48000" />
       <workItem from="1602288628313" duration="863000" />
       <workItem from="1602290298450" duration="1606000" />
-      <workItem from="1602390927443" duration="5249000" />
+      <workItem from="1602390927443" duration="8622000" />
+      <workItem from="1602477740868" duration="818000" />
+      <workItem from="1602517226516" duration="6875000" />
+      <workItem from="1605907591105" duration="682000" />
+      <workItem from="1605983410778" duration="4000" />
+      <workItem from="1606067891289" duration="8044000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="284" y="96" key="#Deployment" timestamp="1602517548310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="284" y="96" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1602517548310" />
+    <state x="445" y="94" key="#Options" timestamp="1602517517795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="445" y="94" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1602517517795" />
     <state x="476" y="56" key="#PHP" timestamp="1602288888349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="56" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1602288888349" />
-    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602288866814">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602477617990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602288866814" />
-    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596428395320">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602477617990" />
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602475463662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596428395320" />
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602475463662" />
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602391537442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602391537442" />
-    <state x="606" y="311" key="Github.ShareDialog" timestamp="1596747841282">
+    <state x="231" y="146" width="1070" height="624" key="DirDiffDialog" timestamp="1602526211592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="606" y="311" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1596747841282" />
-    <state x="543" y="118" key="Github.UntrackedFilesDialog" timestamp="1596747859711">
+    <state x="231" y="146" width="1070" height="624" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1602526211592" />
+    <state x="438" y="185" width="660" height="639" key="EditFileWatcherDialog" timestamp="1606069119592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="543" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596747859711" />
-    <state x="605" y="336" key="NewPhpFileDialog" timestamp="1602392651934">
+    <state x="438" y="185" width="660" height="639" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1606069119592" />
+    <state x="606" y="311" key="Github.ShareDialog" timestamp="1602472811326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="605" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602392651934" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1596428354447">
+    <state x="606" y="311" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1602472811326" />
+    <state x="543" y="118" key="Github.UntrackedFilesDialog" timestamp="1602472828849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596428354447" />
+    <state x="543" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602472828849" />
+    <state x="605" y="336" key="NewPhpFileDialog" timestamp="1606075127241">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="605" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606075127241" />
+    <state x="756" y="178" key="ftp.server.browser" timestamp="1602478158335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="756" y="178" key="ftp.server.browser/0.0.1536.824@0.0.1536.824" timestamp="1602478158335" />
+    <state x="640" y="305" key="publish.login" timestamp="1602477778496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="640" y="305" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1602477778496" />
+    <state x="424" y="212" key="run.anything.popup" timestamp="1602524149392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="212" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602524149392" />
   </component>
 </project>

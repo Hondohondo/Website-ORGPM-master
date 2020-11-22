@@ -13,7 +13,7 @@
                     <h1 class="text-service">Properties</h1>
                 </div>
                 <hr class="hr-line">
-                <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae ab. Expedita possimus voluptates, laudantium provident voluptas</span>
+<!--                <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae ab. Expedita possimus voluptates, laudantium provident voluptas</span>-->
                
              <!-- <span>ORG Portfolio Management LLC offers the services below to institutional
                   investors on a full retainer or unbundled basis. ORG can serve in a fiduciary capacity
@@ -26,6 +26,7 @@
             <?php include "property-cards.php";?>
 
             <?php include "property-card-1.php";?>
+
 
             <?php include "property-card-2.php";?>
 

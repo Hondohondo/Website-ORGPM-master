@@ -12,7 +12,7 @@
 
 
 <!--<link rel="stylesheet" href="css/style.css">-->
-<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/main.css?v=1.1">
 <link rel="stylesheet" href="../css/queries.css">
 
 <link rel="shortcut icon" type="image/png" href="img/favicon.png">
